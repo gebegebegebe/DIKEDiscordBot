@@ -9,7 +9,7 @@ public class Bot{
     }
 
     public static void main(String args[]) throws Exception{
-        JDA jda = JDABuilder.createDefault("Nzk1ODk4NzU0NTMxNTkwMTk0.X_QEeg.QibWThUD1ys7GpNMS7b9l7uNxgU").build();
+        JDA jda = JDABuilder.createDefault("<Insert Bot token here>").build();
         jda.addEventListener(new replyEvents());
     }
 }
